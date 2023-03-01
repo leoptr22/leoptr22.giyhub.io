@@ -1,0 +1,25 @@
+.redes{
+color: black;
+text-align: center;
+padding: 30px;
+font-size: 4rem;
+background-color: lightgoldenrodyellow;
+}
+
+.skill__redes{
+
+    display: flex;
+    margin-right: 10px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratos__libres{
+text-align: center;
+font-size: 2rem;
+color: darkgrey;
+padding: 1rem;
+
+
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/fotoperfil.css">
+    <link rel="stylesheet" href="css/quien-soy.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/redes-hobbys.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+
+
+
+    <title>Home  -  Portfolio personal</title>
+
+
+
+
+
+</head>
+
+<body>
+        <header class="head container">
+<img class="fotoperfil" src="img/fotoperfil.png" alt="">
+<img class="fotoperfil2" src="img/dedo-removebg-preview.png" alt="">
+
+            <nav class="head__navegacion">
+                <ul>
+                    <div>
+                    <li class="head__enlace"><a href="soy">Sobre mi</a></li>
+                    <li class="head__enlace"><a href="#">Blog</a></li>
+                    <li class="head__enlace"><a href="skill1">SKILLS</a></li>
+                    <li class="head__enlace"><a href="#">Contacto</a></li>
+                </div>
+                </ul>
+            </nav>
+
+        <header>
+    <main>
+        <section class="llamada container">
+
+            <h1 id="soy" class="soy"> Hola, soy Leonel, formado en DEV FRONTEND TRAINEE.</h1>
+            <h2 class="sobre__mi">Bienvenidos a mi  portafolio on line. Aqui encontraras info sobre mi.  (👍 ͡❛ ͜ʖ ͡❛)👍 </h2>
+
+            <p class="mas__de__mi">Tengo 39 años, soy de Entre Rios, Argentina. <br>
+soy un dev trainne en FRONTEND,me gusta la programacion y el diseño. <br>
+Espero pueda serte util mi espacio y sientete en libertad en contactarte si te puede ser de ayuda. <br>
+Gracias por visitar mi portafolio¡¡¡
+            </p>
+        </section >
+        <h1 class="destacados container">Implementando estas herramientas DEV</h1>
+
+        <ul id="skill1" class="skill">
+            
+            
+                <li><img class="piel" src="img/descarga (1).png" alt="JS"></li>
+                <li><img class="piel" src="img/css3.png" alt="css"></li>
+                <li><img class="piel" src="img/html5.png" alt="html"></li>
+            
+           
+        </ul>
+
+<section>
+    <h1 class="redes container">[ HOBBYS Y RATOS LIBRES ]</h1>
+    <p class="ratos__libres">En mis ratos libres, me gusta la actividad fisica <br> interactuo con mis redes sociales 
+    como distraccion <br> como asi tambien educarme en grupos de programacion y otras oportunidades <br>
+que sumen valor.</p>
+
+    <ul class="skill__redes">
+        
+        
+            <li><a href="facebook.com.ar"><img class="pielredes" src="img/facebook-logo-3-1.png" alt="facebook"></a></li>
+            <li><a href="linkedin.com"></a><img class="pielredes" src="img/linkedin.jpg" alt="linkedin"></li>
+            <li><a href="instagram.com"></a><img class="pielredes" src="img/instagram-.png" alt="instagram"></li>
+        
+       
+    </ul>
+
+</section>
+
+
+<section>
+
+    <h1 class="curso container">[ CURSOS Y FORMACION ]</h1>
+
+             
+            <ul>
+                <li class="cursos">👉 Codo a codo inicial <img class="lugar" src="../challenge2/img/CODOACODO.jpg" alt="codo a codo"></li>
+                <LI class="cursos">👉 Fundacion TELEFONICA MOVISTAR <img class="lugar3" src="../challenge2/img/movi.jpg" alt=""></LI>
+                <li class="cursos">👉 ConoSur.tech <img class="lugar2" src="../challenge2/img/conosur.jpg" alt="cono sur  tech"></li>
+                
+                <li class="cursos">👉 Programa ONE de Alura Latam></li> 
+                <div class="imagenes">
+                    <img class="lugar1" src="../challenge2/img/alura1.png" alt="alura"> <img class="lugar1" src="../challenge2/img/one.png" alt="one">
+                </div>
+            
+                </li>
+
+            </ul>
+</section>
+
+<section>
+    <h1 class="curso container">[ NO DUDES EN PONERTE EN CONTACTO ]</h1>
+    <form>
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron" required="">
+
+        <label for="correoelectronico">Correo electronico
+        </label>
+        <input type="email" id="correoelectronico" class="input-padron" required="" placeholder="email@dominio.com">
+         
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" class="input-padron" required="" placeholder="(xx)-xxx-xxxx">
+
+        <label for="Mensaje">Mensaje</label>
+        <textarea name="Mensaje" id="Mensaje" cols="70" rows="10" required="" placeholder="Escriba su mensaje"></textarea>
+        
+        <fieldset>
+            <legend>Como le gustaria que lo contactemos??</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+        
+            <label for="telefono"><input type="radio" name="contacto" value="telefono" id="telefono">telefono</label>
+            
+
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked="">whatsapp</label>
+
+            
+        </fieldset>
+
+
+        <fieldset>
+            <legend> En cual horario prefiere ser atendido?</legend>
+            <select>
+                <option>Mañana</option>
+                <option>tarde</option>
+                <option>Noche</option>
+            </select>
+
+        </fieldset>
+
+        <label class="checkbox"><input type="checkbox" checked="">le gustaria recibir informacion?</label>
+
+
+        <input type="submit" value="Enviar formulario" class="enviar">
+
+
+
+
+    </form>
+
+</section>
+
+
+<footer>
+    <p class="copy"> ©  copyright / Este sitio es de mi autoria / 2023</p>
+</footer>
+
+    </main>
+
+
+
+
+
+    
+
+
+
+</body>
+</html>

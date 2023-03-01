@@ -1,0 +1,33 @@
+.fotoperfil{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position:absolute;
+    left: 77%;
+    padding-top: 2rem;
+    background-size: 300px 300px;
+    
+}
+
+
+.fotoperfil2{
+display: block;
+    position: absolute;
+    width: 300px;
+    margin-left: 2px;
+}
+
+@media  screen and (min-width: 100px) and (max-width: 910px) {
+    .fotoperfil  {
+    display: none;
+    }
+    }
+
+    @media  screen and (min-width: 100px) and (max-width: 864px) {
+        .fotoperfil2  {
+        display: none;
+        }
+        }

@@ -1,0 +1,32 @@
+.llamada{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #a86969;
+    text-align: center;
+    
+    background-color: #6b9fad;
+
+    padding-top: 2.25rem;
+    padding-bottom: 2.5rem;
+    
+    }
+
+    .soy{
+text-transform: uppercase;
+padding: 1.5rem;
+text-decoration: underline;
+    }
+
+    .sobre__mi{
+
+        padding-bottom: 20px;
+    }
+
+    .mas__de__mi{
+padding-top: 20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: brown;
+background-color: beige;
+box-shadow: 5px 5px 5px grey;
+    }
